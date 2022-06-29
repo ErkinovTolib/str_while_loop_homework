@@ -6,4 +6,11 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    idx = 0
+    ans = 0
+    while idx<len(s):
+        ans+=s[idx].isdigit()
+        idx+=1
+
+    return ans
+print(main("pyth125on2022"))
